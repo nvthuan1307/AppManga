@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="cardview_background">#FFFFFF</color>
+    <color name="manga_status_success">#689f38</color>
+    <color name="manga_status_unsuccess">#ff5252</color>
+</resources>

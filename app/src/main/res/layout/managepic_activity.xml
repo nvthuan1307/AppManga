@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context="com.hutech.doan.mangajava.Activity.ManagePicActivity"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="50dp"
+        android:text="Tiêu đề: "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:ems="12"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:text="Tác giả: "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20sp" />
+
+
+
+    <EditText
+        android:id="@+id/edt_Author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_title"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:ems="12"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:ems="25"
+        android:text="Lưu" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_Author"
+        android:layout_centerHorizontal="true"
+        android:text="Tải ảnh lên" />
+
+    <ImageView
+        android:id="@+id/img_viewup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Save"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_upload"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tvTITLE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_toEndOf="@+id/textView4"
+        android:textSize="18dp"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvAUTHOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="TextView"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

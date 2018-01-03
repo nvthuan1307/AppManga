@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        android:text="Ứng dụng được thực hiện bởi"
+        android:textColor="@color/fui_errorColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvtitle"
+        android:layout_below="@+id/tvtitle"
+        android:layout_marginTop="33dp"
+        android:text="1. Nguyễn Văn Thuận - Nhóm Trưởng"
+        android:textColor="@color/fui_bgTwitter"
+
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvname1"
+        android:layout_below="@+id/tvname1"
+        android:layout_marginTop="15dp"
+        android:text="2. Trần Minh Chiến"
+        android:textColor="@color/fui_bgTwitter"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvname2"
+        android:layout_below="@+id/tvname2"
+        android:layout_marginTop="15dp"
+        android:text="3. Nguyễn Hữu Cường"
+        android:textColor="@color/fui_bgTwitter"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvname4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvname3"
+        android:layout_below="@+id/tvname3"
+        android:layout_marginTop="15dp"
+        android:text="4. Trịnh Châu Tuấn Tú"
+        android:textColor="@color/fui_bgTwitter"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvname5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvname4"
+        android:layout_below="@+id/tvname4"
+        android:layout_marginTop="15dp"
+        android:text="5. Trần Dương Như Ý"
+        android:textColor="@color/fui_bgTwitter"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

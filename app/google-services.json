@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "208028946483",
+    "firebase_url": "https://appmanga-bb38a.firebaseio.com",
+    "project_id": "appmanga-bb38a",
+    "storage_bucket": "appmanga-bb38a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208028946483:android:0680d6c9faa402c5",
+        "android_client_info": {
+          "package_name": "com.hutech.doan.mangajava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208028946483-4t9fkglc3upl562e0f81ucrnl9il3ls7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY0Sn0jFDhljbvXoGxVOutX_XGQqXFOx0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

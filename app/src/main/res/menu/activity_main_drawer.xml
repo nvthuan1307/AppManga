@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ImageManga"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Truyện tranh" />
+        <item
+            android:id="@+id/nav_TextManga"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Truyện đọc" />
+        <item
+            android:id="@+id/nav_FavouManga"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Truyện ưa thích" />
+        <item
+            android:id="@+id/nav_MangaManager"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Quản lý truyện" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Infomation"
+                android:icon="@drawable/fui_ic_mail_white_24dp"
+                android:title="Thông tin cá nhân" />
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tác giả" />
+            <item
+                android:id="@+id/nav_Out"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+
+</menu>
