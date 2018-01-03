@@ -2,6 +2,7 @@ package com.hutech.doan.mangajava.Model;
 
 /**
  * Created by Thuan on 12/28/2017.
+create new class
  */
 
 public class Profile {
