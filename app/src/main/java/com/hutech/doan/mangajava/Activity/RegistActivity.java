@@ -22,6 +22,7 @@ import com.hutech.doan.mangajava.R;
 
 /**
  * Created by Thuan on 26-12-2017.
+ EditText
  */
 
 public class RegistActivity extends AppCompatActivity implements View.OnClickListener {
