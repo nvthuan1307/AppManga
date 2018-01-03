@@ -4,6 +4,7 @@ import android.net.Uri;
 
 /**
  * Created by Thuan on 1/1/2018.
+get manga to user
  */
 
 public class PicManga {
