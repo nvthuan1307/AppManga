@@ -7,7 +7,8 @@ import android.widget.Toast;
 /**
  * Created by thuan on 02012018.
  EDIT
- create new class
+ create new class5
+ change funtion
  */
 
 public class L {
