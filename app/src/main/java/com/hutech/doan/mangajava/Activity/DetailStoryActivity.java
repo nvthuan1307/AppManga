@@ -24,6 +24,8 @@ import java.util.Date;
 
 /**
  * Created by Thuan on 29-12-2017.
+ Chinh sua lan cuoi
+ 
  */
 
 public class DetailStoryActivity extends AppCompatActivity implements ValueEventListener {
